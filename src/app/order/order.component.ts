@@ -4,8 +4,7 @@ import { RadioOption } from '../shared/radio/radio-option.model'
 
 @Component({
   selector: 'mt-order',
-  templateUrl: './order.component.html',
-  styleUrls: ['./order.component.css']
+  templateUrl: './order.component.html'
 })
 export class OrderComponent implements OnInit {
 
