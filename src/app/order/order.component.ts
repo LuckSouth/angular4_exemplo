@@ -49,10 +49,10 @@ export class OrderComponent implements OnInit {
     const email = group.get('email')
     const emailConfirmation = group.get('emailConfirmation')
     if (!email || !emailConfirmation) {
-      return undefined 
+      return undefined
     }
-    if(email.value !== emailConfirmation.value){
-      return {emailsNotMatch:true}
+    if (email.value !== emailConfirmation.value) {
+      return { emailsNotMatch: true }
     }
     return undefined
   }
